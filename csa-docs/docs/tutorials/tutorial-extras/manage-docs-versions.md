@@ -11,7 +11,7 @@ Docusaurus can manage multiple versions of your docs.
 Release a version 1.0 of your project:
 
 ```bash
-npm run docusaurus docs:version 1.0
+npm run docusaurus tutorials:version 1.0
 ```
 
 The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
@@ -45,7 +45,7 @@ export default {
 
 The docs version dropdown appears in your navbar:
 
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
+![Docs Version Dropdown](img/docsVersionDropdown.png)
 
 ## Update an existing version
 

@@ -24,9 +24,9 @@ export default {
 Copy the `docs/intro.md` file to the `i18n/fr` folder:
 
 ```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+mkdir -p i18n/fr/docusaurus-plugin-content-tutorials/current/
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
+cp tutorials/intro.md i18n/fr/docusaurus-plugin-content-tutorials/current/intro.md
 ```
 
 Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
@@ -71,7 +71,7 @@ export default {
 
 The locale dropdown now appears in your navbar:
 
-![Locale Dropdown](./img/localeDropdown.png)
+![Locale Dropdown](img/localeDropdown.png)
 
 ## Build your localized site
 

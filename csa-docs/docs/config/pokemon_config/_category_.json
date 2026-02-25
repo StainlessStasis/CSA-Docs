@@ -1,0 +1,8 @@
+{
+  "label": "Config - Pokemon (client)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Configuring the pokemon.json config"
+  }
+}

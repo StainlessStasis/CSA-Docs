@@ -1,0 +1,9 @@
+{
+  "label": "Cobblemon Spawn Alerts",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A highly customizable sidemod for Cobblemon to alert Pokemon spawning",
+    "slug": "/"
+  }
+}

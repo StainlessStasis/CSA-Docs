@@ -1,0 +1,8 @@
+{
+  "label": "Config - Main (client)",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Configuring the main.json config"
+  }
+}
