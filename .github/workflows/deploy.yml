@@ -11,12 +11,18 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./csa-docs
+
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: yarn
+          cache-dependency-path: ./csa-docs/yarn.lock
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -26,7 +32,7 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: ./csa-docs/build
 
   deploy:
     name: Deploy to GitHub Pages
