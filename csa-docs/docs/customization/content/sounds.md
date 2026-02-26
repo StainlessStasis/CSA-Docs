@@ -6,7 +6,7 @@ description: "Add your own sounds to alerts using a resource pack template."
 
 # Custom Sounds
 ### How to add custom sounds
-If you are not adding **your own** sounds via resource back, refer to `sounds / customAlertSound` in [pokemon.json](../../config/pokemon/about).
+If you are not adding **your own** sounds via resource back, refer to `sounds / customAlertSound` in [pokemon.json](../../config/pokemon_config/intro.md).
 
 To get started with adding custom sounds, you need a resource pack. You can either make this yourself, or download the CSA
 [resource pack template](https://github.com/StainlessStasis/CSA-Pack-Template). This provides two sounds you can base your own off of.

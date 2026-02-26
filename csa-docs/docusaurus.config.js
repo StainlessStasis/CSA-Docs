@@ -21,17 +21,19 @@ const config = {
 
   // Set the production url of your site here
   // TODO: this
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://StainlessStasis.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/CSA-Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'StainlessStasis', // Usually your GitHub org/user name.
   projectName: 'CSA-Docs', // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -168,6 +170,24 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        indexBlog: false,
+        docsRouteBasePath: "/"
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }),
+    ],
+  ],
 };
 
 export default config;

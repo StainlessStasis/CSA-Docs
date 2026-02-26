@@ -14,17 +14,20 @@ a highly customizable config for players to control exactly **what** they want t
 * Alert **shinies, legendaries, ultra-rares**, and more.
 * Alert any **uncaught or unregistered** Pokemon.
 :::
+![rare_pokemon.png](rare_pokemon.png)
 
 :::info Build Your Team
 * Alert based on **hidden ability, IVs, or EV yield**.
 * Alert **groups** of Pokemon by name or dex number.
 * Display info such as **nature, ability, gender**, and more.
 :::
+![build_team.png](build_team.png)
 
 :::info Fully Customizable
 * Create your own alerts using **styled text, custom sounds, click events**, and more.
 * Automatically create **Journeymap waypoints** with custom names and colors.
 :::
+![customization.png](customization.png)
 
 :::info Other
 * Reload configs without needing to restart the game.
