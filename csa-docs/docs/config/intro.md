@@ -21,7 +21,7 @@ Configs will automatically update to newer versions, and merge new content with 
 guarantee that downgrading to a previous version will work.
 :::
 
-### Types of Configs
+### Types of configs
 Configs are categorized as **client** or **common**.<br />
 :::info Client Configs
 These configs exist only on your client. They affect **what** your client alerts, and **how** those alerts are displayed. <br />
@@ -42,7 +42,7 @@ Controls data about Pokemon which is sent to clients, such as global alerts and 
 The server only uses this config for starter Pokemon. Clients use the entire config.
 :::
 
-### Reloading Configs
+### Reloading configs
 Configs can be reloaded while the game is running. They will **NOT** automatically reload when entering a world.
 
 Client configs use the `/csa reload` command.

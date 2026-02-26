@@ -54,7 +54,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/StainlessStasis/CSA-Docs',
+            'https://github.com/StainlessStasis/CSA-Docs/tree/main/csa-docs/',
         },
         blog: false,
         // blog: {
@@ -112,10 +112,26 @@ const config = {
             position: 'left',
             label: 'Customization',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'otherSidebar',
+            position: 'left',
+            label: 'Other',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://modrinth.com/mod/cobblemon-spawn-alerts',
+            label: 'Download CSA',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/StainlessStasis/CSA-Docs',
-            label: 'GitHub',
+            label: 'Mod Repository',
+            position: 'right',
+          },
+          {
+            href: 'https://ko-fi.com/stasistheshattered',
+            label: 'Support Me!',
             position: 'right',
           },
         ],
@@ -128,11 +144,19 @@ const config = {
             items: [
               {
                 label: 'About',
-                to: '/about/intro',
+                to: '/',
               },
               {
                 label: 'Configs',
                 to: '/config/',
+              },
+              {
+                label: 'Customization',
+                to: '/customization/',
+              },
+              {
+                label: 'Other',
+                to: '/other/changelog/',
               },
             ],
           },
@@ -153,7 +177,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
+                label: 'Docs Repository',
                 href: 'https://github.com/StainlessStasis/CSA-Docs',
               },
               {
