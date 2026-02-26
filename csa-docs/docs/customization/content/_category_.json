@@ -1,0 +1,8 @@
+{
+  "label": "Customization",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Customization options like custom alert messages, sounds, etc."
+  }
+}

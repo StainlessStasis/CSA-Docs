@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 slug: /about/known-issues
+description: "Incompatibilities, bugs, and other known issues."
 ---
 
 # Known Issues

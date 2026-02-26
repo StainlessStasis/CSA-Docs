@@ -1,11 +1,12 @@
 ---
 sidebar_position: 1
 slug: /about/intro
+description: "Comprehensive list of all of CSA's features."
 ---
 
 # What is Cobblemon Spawn Alerts?
 Cobblemon Spawn Alerts (**CSA**) is a **utility and QoL** addon/sidemod for [Cobblemon](https://modrinth.com/mod/cobblemon) 
-to notify players of Pokemon spawns. It is designed to be client-first, offering
+to notify players of Pokemon spawns. CSA is designed to be client-first, with
 a highly customizable config for players to control exactly **what** they want to see, and **how** they see it.
 
 # What can CSA do?
@@ -17,7 +18,7 @@ a highly customizable config for players to control exactly **what** they want t
 :::info Build Your Team
 * Alert based on **hidden ability, IVs, or EV yield**.
 * Alert **groups** of Pokemon by name or dex number.
-* Display info such as **nature, ability, gender**, and much more.
+* Display info such as **nature, ability, gender**, and more.
 :::
 
 :::info Fully Customizable

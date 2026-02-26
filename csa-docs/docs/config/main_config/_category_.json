@@ -3,6 +3,7 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Configuring the main.json config"
+    "description": "Configuring the main.json config",
+    "slug": "/config/main"
   }
 }

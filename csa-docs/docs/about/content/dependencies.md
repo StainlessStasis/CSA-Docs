@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 slug: /about/dependencies
+description: "Required libraries for CSA to function."
 ---
 
 # Dependencies

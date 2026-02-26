@@ -1,0 +1,66 @@
+---
+sidebar_position: 2
+slug: /config/main/default-options
+description: "Compare your own config to the default if you're experiencing issues."
+---
+
+# Default config options
+```json
+{
+  "configVersion": "1.12.2",
+  "comment": [
+    "This config is only on your client. It determines which *groups* of Pokemon are alerted. For individually alerting Pokemon, see pokemon.json.",
+    "For documentation on using the config, please see the Modrinth or GitHub for the mod.",
+    "https://modrinth.com/mod/cobblemon-spawn-alerts",
+    "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
+  ],
+  "debug": false,
+  "multiplayerWarning": true,
+  "enableAlerts": true,
+  "enableDespawnAlerts": true,
+  "enableSounds": true,
+  "alertAllShinies": true,
+  "alertAllHA": true,
+  "alertAllLegendaries": true,
+  "alertAllMythicals": true,
+  "alertAllUltraBeasts": true,
+  "alertAllParadox": true,
+  "alertAllStarter": false,
+  "bucketsToAlert": [
+    "ULTRA_RARE"
+  ],
+  "alertAllNotInDex": false,
+  "alertAllUncaught": false,
+  "alertEverything": false,
+  "ivHunting": {
+    "enabled": false,
+    "requireAllMinimumsMet": true,
+    "minPerfectIVs": 0,
+    "minHp": 0,
+    "minAtk": 0,
+    "minDef": 0,
+    "minSpAtk": 0,
+    "minSpDef": 0,
+    "minSpeed": 0
+  },
+  "evHunting": {
+    "enabled": false,
+    "minHp": 0,
+    "minAtk": 0,
+    "minDef": 0,
+    "minSpAtk": 0,
+    "minSpDef": 0,
+    "minSpeed": 0
+  },
+  "levelFilter": {
+    "enabled": false,
+    "minLevel": 1,
+    "maxLevel": 100
+  },
+  "distanceFilter": {
+    "enabled": false,
+    "minDistance": 0,
+    "maxDistance": 2147483647
+  }
+}
+```
