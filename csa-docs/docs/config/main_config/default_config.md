@@ -4,7 +4,7 @@ slug: /config/main/default-options
 description: "Compare your own config to the default if you're experiencing issues."
 ---
 
-# Default config options
+# Default Config Options
 ```json
 {
   "configVersion": "1.12.2",

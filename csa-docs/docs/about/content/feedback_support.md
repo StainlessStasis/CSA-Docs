@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 slug: /about/support-and-feedback
-description: "Where to receive support or give feedback and suggestions"
+description: "Where to receive support or give feedback and suggestions."
 ---
 
 # Support & Feedback

@@ -15,7 +15,6 @@ For alerting Pokemon by specific name or dex number, see [pokemon.json](../pokem
 | Option              | Description                                                                                                                                                           |
 |:--------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | configVersion       | **DO NOT EDIT**. Self-updating mod version, used mainly for support purposes right now. May be used in the future to notify users of important changes upon updating. |
-| comment             | A brief description of what the config does.                                                                                                                          |
 | debug               | Enables debug messages in chat when an alert attempts to trigger.                                                                                                     |
 | multiplayerWarning  | Shows a warning message in chat when joining a server.                                                                                                                |
 | enableAlerts        | Enables all alerts, excluding despawns.                                                                                                                               |

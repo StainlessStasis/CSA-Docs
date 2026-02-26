@@ -104,6 +104,12 @@ const config = {
             position: 'left',
             label: 'Configs',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'customizationSidebar',
+            position: 'left',
+            label: 'Customization',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/StainlessStasis/CSA-Docs',
