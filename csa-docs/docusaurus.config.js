@@ -19,17 +19,11 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  // TODO: this
   url: 'https://StainlessStasis.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/CSA-Docs/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'StainlessStasis', // Usually your GitHub org/user name.
-  projectName: 'CSA-Docs', // Usually your repo name.
+  organizationName: 'StainlessStasis',
+  projectName: 'CSA-Docs',
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: 'throw',
@@ -51,8 +45,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/StainlessStasis/CSA-Docs/tree/main/csa-docs/',
         },
@@ -82,8 +74,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social_card.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },

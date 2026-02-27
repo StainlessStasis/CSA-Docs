@@ -16,6 +16,12 @@ If you are looking to customize messages/message parts for **all** alerts, see [
 In your [pokemon.json](../../config/pokemon_config/intro.md) config, find `customAlertMessage`. Then, combine markup with [dynamic replacements](dynamic_replacements.md)
 and you're done. If you need to add multiple lines, use the `\n` newline character.
 
+### Legacy versions
+:::warning
+These examples are written for CSA 1.12.0+ using [ETA markup](https://tysontheember.dev/embers-text-api/for-modpack-creators/markup-guide/). <br />
+For older versions, the markup in these examples will not work. See the [MiniMessage](https://docs.papermc.io/adventure/minimessage/) docs.
+:::
+
 ### Examples
 :::info
 `"customAlertMessage": "<c value=#FFFFFF>A wild {shiny}{legendary}<rainbow>{name}</rainbow> has appeared{biome}!"`

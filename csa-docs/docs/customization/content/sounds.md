@@ -6,7 +6,7 @@ description: "Add your own sounds to alerts using a resource pack template."
 
 # Custom Sounds
 ### How to add custom sounds
-If you are not adding **your own** sounds via resource back, refer to `sounds / customAlertSound` in [pokemon.json](../../config/pokemon_config/intro.md).
+If you are not adding **your own** sounds via resource pack, refer to `sounds / customAlertSound` in [pokemon.json](../../config/pokemon_config/intro.md).
 
 To get started with adding custom sounds, you need a resource pack. You can either make this yourself, or download the CSA
 [resource pack template](https://github.com/StainlessStasis/CSA-Pack-Template). This provides two sounds you can base your own off of.
@@ -38,5 +38,7 @@ to the [Minecraft wiki](https://minecraft.wiki/w/Sounds.json).
 
 Finally, we add the sound to the config. Sounds added via resource pack must begin with the `minecraft:` namespace.
 In our example, the sound was `cobblemonspawnalerts.legendary`, so the full resource location is `minecraft:cobblemonspawnalerts.legendary`.
-Finally, take that resource location, and add it to the config. In our case, this sound is for a legendary, so it would be added like so:
+Finally, take that resource location, and add it to the Pokemon's [config](../../config/pokemon_config/intro.md). 
+
+In our case, this sound is for a legendary, so it would be added like so: <br />
 `"legendary": "minecraft:cobblemonspawnalerts.legendary",`

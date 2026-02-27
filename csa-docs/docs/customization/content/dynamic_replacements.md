@@ -9,14 +9,15 @@ description: "Dynamically insert information into alert messages."
 Dynamic replacements are used as placeholder values for parts of messages. They can be combined to create your own custom messages
 in [message templates](../../config/message_templates/intro.md) and [custom alert messages](custom_alert_messages.md).
 
-Dynamic replacements are replaced with the value from `message_templates.json`, which is then used to style the message and fill out the parameters
+Dynamic replacements are replaced with the value from [message_templates.json](../../config/message_templates/intro.md), which is then used to style the message and fill out the parameters
 defined by the placeholder values.
 :::info How it works
-`{shiny}` -> fetch `"shiny"` value from `message_templates.json` -> replace `{shiny}` with `<c col=#78CBFF>Shiny </c>`
+`{shiny}` -> fetch `"shiny"` value from `message_templates.json` -> receive markup `<c col=#78CBFF>Shiny </c>` -> replace `{shiny}`
+with final markup `<c col=#78CBFF>Shiny </c>`
 
 `{level}` -> fetch `"level"` value from `message_templates.json` -> receive translation key `"cobblemon-spawn-alerts.level"` <br />
 -> fetch translation for key `"cobblemon-spawn-alerts.level"` -> receive markup `"<c col=#AAAAAA>(Lvl. %s) </c>"` ->
-replace placeholder `%s` with level `5` -> final markup `"<c col=#AAAAAA>(Lvl. 5) </c>"`
+replace placeholder `%s` with level `5` -> replace `{level}` with final markup `"<c col=#AAAAAA>(Lvl. 5) </c>"`
 :::
 
 ### Available options
