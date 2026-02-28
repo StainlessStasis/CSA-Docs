@@ -116,7 +116,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/StainlessStasis/CSA-Docs',
+            href: 'https://github.com/StainlessStasis/CobblemonSpawnAlerts',
             label: 'Mod Repository',
             position: 'right',
           },
