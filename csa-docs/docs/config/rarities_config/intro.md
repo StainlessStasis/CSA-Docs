@@ -27,4 +27,6 @@ tier takes precedence in the order of `Legendary > Mythical > Ultra Beast > Para
 :::danger
 **DO NOT** use the Pokemon's name, or anything other than a number here! <br />
 This config only accepts dex numbers. Anything else **will break things**.
+
+**DO NOT** edit `configVersion`.
 :::

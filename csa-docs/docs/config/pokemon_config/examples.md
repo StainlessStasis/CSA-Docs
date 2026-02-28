@@ -21,7 +21,7 @@ Finally, replace the placeholder text with your Pokemon names.
 
 ```json
 {
-  "configVersion": "1.12.2",
+  "configVersion": "1.12.3",
   "comment": [
     "This config is only on your client. It determines which Pokemon are alerted, and how that alert is displayed.",
     "For documentation on using the config, please see the Modrinth or GitHub for the mod.",

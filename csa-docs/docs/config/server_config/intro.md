@@ -12,6 +12,7 @@ Here, server owners can control what they want their players to have access to r
 ### Config options
 | Option                   | Description                                                                                                                                                 |
 |:-------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| configVersion            | **DO NOT EDIT**. Self-updating mod version - used to notify of important changes when updating the mod.                                                     |
 | enableSpawnCommandAlerts | Enables alerts for Pokemon spawned via commands. **NOT RECOMMENDED** to enable. Please see the full warning below this table.                               |
 | alertShinies             | Sends all shiniy Pokemon spawned on the server to all players.                                                                                              |
 | alertLegendaries         | Sends all Legendary Pokemon spawned on the server to all players.                                                                                           |

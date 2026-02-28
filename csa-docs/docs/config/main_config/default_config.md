@@ -7,12 +7,11 @@ description: "Compare your own config to the default if you're experiencing issu
 # Default Config Options
 ```json
 {
-  "configVersion": "1.12.2",
+  "configVersion": "1.12.3",
   "comment": [
     "This config is only on your client. It determines which *groups* of Pokemon are alerted. For individually alerting Pokemon, see pokemon.json.",
-    "For documentation on using the config, please see the Modrinth or GitHub for the mod.",
-    "https://modrinth.com/mod/cobblemon-spawn-alerts",
-    "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
+    "For details on using the config, please see the docs.",
+    "https://stainlessstasis.github.io/CSA-Docs/config/"
   ],
   "debug": false,
   "multiplayerWarning": true,

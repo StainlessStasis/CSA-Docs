@@ -7,13 +7,13 @@ description: "Compare your own config to the default if you're experiencing issu
 # Default Config Options
 ```json
 {
+  "configVersion": "1.12.3",
   "comment": [
     "This config is only used if you are in singleplayer or hosting a server (including LAN).",
     "It determines which Pokemon are sent to all players, sending info about those Pokemon to clients.",
     "It does NOT determine how each individual client displays the data sent from the server. Each client is responsible for displaying its own alerts.",
-    "For documentation on using the config, please see the Modrinth or GitHub for the mod.",
-    "https://modrinth.com/mod/cobblemon-spawn-alerts",
-    "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
+    "For details on using the config, please see the docs.",
+    "https://stainlessstasis.github.io/CSA-Docs/config/"
   ],
   "enableSpawnCommandAlerts": false,
   "alertShinies": true,

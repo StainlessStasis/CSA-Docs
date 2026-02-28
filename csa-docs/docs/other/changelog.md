@@ -58,3 +58,18 @@ Fixed NeoForge startup crash due to accidental hard dependency on Journeymap
 - Fixed stupid idiot error where I mistyped ultra-rare as ultra_rare and so ultra rares wouldn't alert :)
 </details>
 :::
+
+:::note Adds version checker
+<details>
+<summary>1.12.3</summary>
+
+### New Features
+- Added `{x}`, `{y}`, and `{z}` dynamic replacements for coordinates.
+- Added version checker to notify players of important changes. You may disable this in `main.json`. However, it is highly recommended to leave this setting on. The message will go away after restarting your game, assuming the version stays consistent.
+
+### Changes & Fixes
+- Changed DespawnDataPacket to contain the entire AlertDataPacket for the Pokemon, giving access to much more information in despawn messages.
+- Made coordinates display as "N/A" when unavilable, instead of just 0.
+- Added configVersion to message_templates, server, and rarities configs.
+</details>
+:::

@@ -19,6 +19,9 @@ Editing message templates is very straightforward using [ETA markup](https://tys
 First, reference the [language file](lang) of the matching translation key for the template you want to edit. 
 Then, use this as a basis for editing the template. Note that all whitespace is there **intentionally** to make message pieces connect together.
 Keep spacing in mind so you don't end up with double/no spaces. If you need to add multiple lines, use the `\n` newline character.
+:::danger
+**DO NOT** edit `configVersion`.
+:::
 
 ### Placeholders
 You'll notice in the [language file](lang) that there are a bunch of `%s`. These are placeholders for String values which get replaced at runtime

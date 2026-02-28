@@ -7,11 +7,11 @@ description: "Compare your own config to the default if you're experiencing issu
 # Default Config Options
 ```json
 {
+  "configVersion": "1.12.3",
   "comment": [
     "This config is only on your client. It determines how each piece of an alert is displayed, giving you full control over displaying them.",
-    "For documentation on using the config, please see the Modrinth or GitHub for the mod.",
-    "https://modrinth.com/mod/cobblemon-spawn-alerts",
-    "https://github.com/StainlessStasis/CobblemonSpawnAlerts"
+    "For details on using the config, please see the docs.",
+    "https://stainlessstasis.github.io/CSA-Docs/config/"
   ],
   "fullSpawnMessage": "cobblemon-spawn-alerts.default_spawn_message",
   "despawnMessage": "cobblemon-spawn-alerts.default_despawn_message",
