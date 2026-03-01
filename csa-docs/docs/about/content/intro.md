@@ -26,6 +26,7 @@ a highly customizable config for players to control exactly **what** they want t
 :::info Fully Customizable
 * Create your own alerts using **styled text, custom sounds, click events**, and more.
 * Automatically create **Journeymap waypoints** with custom names and colors.
+* Discord webhooks integration
 :::
 ![customization.png](customization.png)
 

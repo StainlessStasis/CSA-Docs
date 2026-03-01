@@ -9,8 +9,6 @@ slug: /other/todo
 * In-game, GUI-based config <br />
 * Alert simulator for testing configs more easily <br />
 * More [dynamic replacements](../customization/content/dynamic_replacements.md) for more control over alert messages<br />
-* Version checker to notify of important/breaking changes upon updating <br />
-* Discord webhooks <br />
 * My own Discord server
 :::
 
