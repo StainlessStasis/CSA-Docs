@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "@easyops-cn/docusaurus-search-local": "^0.55.0"
+    "@easyops-cn/docusaurus-search-local": "^0.55.0",
+    "yarn": "^1.22.22"
   }
 }
