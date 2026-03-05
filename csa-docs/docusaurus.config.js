@@ -161,19 +161,27 @@ const config = {
               {
                 label: 'Feedback',
                 href: 'https://docs.google.com/forms/d/e/1FAIpQLSek3U1Df_Ycwb_h5R1DPQKedsTzK9eTD2jPayqD3zw7oAJXkg/viewform?usp=header',
-              }
+              },
+              {
+                label: 'Donate on Ko-fi',
+                href: 'https://ko-fi.com/stasistheshattered',
+              },
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Docs Repository',
-                href: 'https://github.com/StainlessStasis/CSA-Docs',
+                label: 'Download CSA',
+                href: 'https://modrinth.com/mod/cobblemon-spawn-alerts'
               },
               {
-                label: 'Donate on Ko-fi',
-                href: 'https://ko-fi.com/stasistheshattered',
+                label: 'Mod Repository',
+                href: 'https://github.com/StainlessStasis/CobblemonSpawnAlerts'
+              },
+              {
+                label: 'Docs Repository',
+                href: 'https://github.com/StainlessStasis/CSA-Docs',
               },
             ],
           },

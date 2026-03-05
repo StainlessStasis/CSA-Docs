@@ -14,6 +14,7 @@ slug: /other/todo
 
 ### Likely to add
 :::info
+* Alerts for hatching rare Pokemon from eggs, or fishing them up, etc.
 * Despawn alerts for players within tracking range of entity at time of despawn <br />
 * Party system for sharing alerts with other players, without requiring global alerts <br />
 * Spawn history for seeing what spawned in the specified time <br />

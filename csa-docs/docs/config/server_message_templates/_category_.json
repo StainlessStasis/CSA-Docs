@@ -1,0 +1,9 @@
+{
+  "label": "Config - Server Message Templates (common)",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Configuring the server_message_templates.json config",
+    "slug": "/config/server-message-templates"
+  }
+}
